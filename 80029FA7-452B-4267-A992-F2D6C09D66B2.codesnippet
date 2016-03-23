@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@pna</string>
+	<string>else</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) &lt;#property type#&gt; &lt;#property name#&gt;;</string>
+	<string>else{
+    &lt;#statement#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7DC7DD7F-BFD6-4247-8EC0-E9265EDDD0ED</string>
+	<string>80029FA7-452B-4267-A992-F2D6C09D66B2</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>kd_property_nonatomic_assign</string>
+	<string>kd_else</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
