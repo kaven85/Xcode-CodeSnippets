@@ -3,24 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>kd_void_func</string>
+	<string>kd_pna</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>-(void)&lt;#function name#&gt;{
-    &lt;#function body#&gt;
-}</string>
+	<string>@property (nonatomic, assign) &lt;#property type#&gt; &lt;#property name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4109F25B-52E9-4710-AD53-BBA647D8C7D4</string>
+	<string>7DC7DD7F-BFD6-4247-8EC0-E9265EDDD0ED</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>kd_void_function</string>
+	<string>kd_property_nonatomic_assign</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
