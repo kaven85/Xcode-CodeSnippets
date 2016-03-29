@@ -3,19 +3,42 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tq_macro_utils</string>
+	<string>kd_macro_utils</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#ifdef DEBUG
-#define debugLog(...) NSLog(__VA_ARGS__)
-#define debugMethod() NSLog(@"%s", __func__)
+
+#define XCODE_COLORS_ESCAPE @"\033["
+#define XCODE_COLORS_RESET_FG  XCODE_COLORS_ESCAPE @"fg;"
+#define XCODE_COLORS_RESET_BG  XCODE_COLORS_ESCAPE @"bg;"
+#define XCODE_COLORS_RESET     XCODE_COLORS_ESCAPE @";"
+
+//定义输出
+//输出异常信息（红色）
+#define LogErrorMsg(msg, ...) NSLog((XCODE_COLORS_ESCAPE  @"fg255,0,0;" msg XCODE_COLORS_RESET), ##__VA_ARGS__)
+//输出信息（绿色）
+#define LogInfoMsg(msg, ...) NSLog((XCODE_COLORS_ESCAPE @"fg50,205,50;" msg  XCODE_COLORS_RESET), ##__VA_ARGS__)
+//输出警告信息（黄色）
+#define LogWarningMsg(msg, ...) NSLog((XCODE_COLORS_ESCAPE @"fg255,215,0;" msg XCODE_COLORS_RESET), ##__VA_ARGS__)
+//输出Trace信息（蓝色）
+#define LogTraceMsg(msg, ...) NSLog((XCODE_COLORS_ESCAPE @"fg11,158,251;" msg XCODE_COLORS_RESET), ##__VA_ARGS__)
+
+
+#define TRACE  LogTraceMsg(@"===TRACE===: %s,LINE:%d", __func__,__LINE__);
+
 #else
-#define debugLog(...)
-#define debugMethod()
+
+#define NSLog(...)
+#define TRACE
+#define LogErrorMsg(...)
+#define LogInfoMsg(...)
+#define LogWarningMsg(...)
+#define LogTraceMsg(...)
 #endif
+
 
 #define EMPTY_STRING        @""
 
@@ -67,7 +90,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>TQ Macro Utils</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>TQ Macro Utils</string>
+	<string>kd_Macro_Utils</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
