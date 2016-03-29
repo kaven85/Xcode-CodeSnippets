@@ -3,22 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>kd_pnc</string>
+	<string>else</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) &lt;#property type#&gt; *&lt;#property name#&gt;;</string>
+	<string>else{
+    &lt;#statement#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>25E8B1A8-5890-4367-97DE-98043A332E58</string>
+	<string>1D8CAF84-C539-45AD-BA5A-834694875FFE</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>kd_property_nonatomic_copy</string>
+	<string>kd_else</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
