@@ -1,7 +1,7 @@
 // kd_register_nib
 // 
 //
-// IDECodeSnippetCompletionPrefix: tq_register_nib
+// IDECodeSnippetCompletionPrefix: kd_register_nib
 // IDECodeSnippetCompletionScopes: [CodeBlock]
 // IDECodeSnippetIdentifier: 524E7A76-9BBC-4442-86F2-37DB97C7AC37
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
