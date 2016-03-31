@@ -21,10 +21,8 @@
 	<string>84587A91-678A-4727-9EBA-6F9D327EF485</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>tq Notification sample</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tq Notification sample</string>
+	<string>kd_Notification_sample</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
