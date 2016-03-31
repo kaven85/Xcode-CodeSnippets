@@ -1,7 +1,7 @@
 // kd_ape_ui_common
 // 
 //
-// IDECodeSnippetCompletionPrefix: tq_ape_ui_common
+// IDECodeSnippetCompletionPrefix: kd_ape_ui_common
 // IDECodeSnippetCompletionScopes: [ClassImplementation]
 // IDECodeSnippetIdentifier: B564B787-4757-4E8E-A8A2-1299CE7B5420
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
