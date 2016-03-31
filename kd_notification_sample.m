@@ -1,7 +1,7 @@
 // kd_Notification_sample
 // 
 //
-// IDECodeSnippetCompletionPrefix: tq_notification
+// IDECodeSnippetCompletionPrefix: kd_notification
 // IDECodeSnippetCompletionScopes: [CodeExpression]
 // IDECodeSnippetIdentifier: 84587A91-678A-4727-9EBA-6F9D327EF485
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
