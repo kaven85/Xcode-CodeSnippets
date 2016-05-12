@@ -3,21 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>kd_pro</string>
+	<string>kd_label</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>Preprocessor</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@protocol &lt;#delegateName#&gt;Delegate
-    &lt;#body#&gt;
-@end</string>
+	<string>UILabel *&lt;#labelname#&gt;=[[UILabel alloc]init];
+    [&lt;#labelname#&gt; setText:@"&lt;#text#&gt;"];
+    [&lt;#labelname#&gt; setTextColor:[UIColor whiteColor]];
+    [&lt;#labelname#&gt; setFont:[UIFont fontWithName:&lt;#(nonnull NSString *)#&gt; size:&lt;#(CGFloat)#&gt;]];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9CA043AE-7B27-445A-A3E2-BB3B81E38DC4</string>
+	<string>E13ACA2B-6BEC-44B1-AE96-B77899308937</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>kd_protocol </string>
+	<string>kd_UILabel</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

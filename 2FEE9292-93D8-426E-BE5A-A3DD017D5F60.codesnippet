@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>kd_pro</string>
+	<string>kd_vc_pop</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>Preprocessor</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@protocol &lt;#delegateName#&gt;Delegate
-    &lt;#body#&gt;
-@end</string>
+	<string>[self.navigationController popViewControllerAnimated:YES];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9CA043AE-7B27-445A-A3E2-BB3B81E38DC4</string>
+	<string>2FEE9292-93D8-426E-BE5A-A3DD017D5F60</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>kd_protocol </string>
+	<string>kd_popViewControllerAnimated</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

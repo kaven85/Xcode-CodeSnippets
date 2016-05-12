@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>kd_pro</string>
+	<string>kd_vc_present</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>Preprocessor</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@protocol &lt;#delegateName#&gt;Delegate
-    &lt;#body#&gt;
-@end</string>
+	<string>[self presentViewController:&lt;#(nonnull UIViewController *)#&gt; animated:&lt;#(BOOL)#&gt; completion:&lt;#^(void)completion#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9CA043AE-7B27-445A-A3E2-BB3B81E38DC4</string>
+	<string>B39A47E7-B6F2-41BB-851D-FA39D4F81B8B</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>kd_protocol </string>
+	<string>kd_vc_presentViewController</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

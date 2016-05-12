@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>kd_pro</string>
+	<string>kd_vc_push</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>Preprocessor</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@protocol &lt;#delegateName#&gt;Delegate
-    &lt;#body#&gt;
-@end</string>
+	<string>[self.navigationController pushViewController:&lt;#vc#&gt; animated:YES];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9CA043AE-7B27-445A-A3E2-BB3B81E38DC4</string>
+	<string>264D70A9-3F9C-45C1-AB3A-CD8A5939D969</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>kd_protocol </string>
+	<string>kd_vc_pushViewController</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

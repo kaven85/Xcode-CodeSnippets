@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>kd_notification_addObserver</string>
+	<string>kd_button</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[NSNotificationCenter defaultCenter]addObserver:&lt;#(nonnull id)#&gt; selector:&lt;#(nonnull SEL)#&gt; name:&lt;#(nullable NSString *)#&gt; object:&lt;#(nullable id)#&gt;];</string>
+	<string>UIButton *&lt;#buttonName#&gt;=[[UIButton alloc]init];
+    [&lt;#buttonName#&gt; setBackgroundImage:[[UIImage imageNamed:@"&lt;#imageName#&gt;"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ] forState:UIControlStateNormal];
+    [&lt;#buttonName#&gt; addTarget:&lt;#context#&gt; action:@selector(&lt;#selecton#&gt;) forControlEvents:UIControlEventTouchUpInside];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8ED03383-382F-4400-ABEE-3974C20DBED4</string>
+	<string>0387DD25-46C1-49F3-ACF6-D7E6D68F321A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>KD_notificationcenter_addObserver</string>
+	<string>kd_UIButton</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

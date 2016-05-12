@@ -3,24 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>kd_pro</string>
+	<string>kd_notifi_post</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>Preprocessor</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@protocol &lt;#delegateName#&gt;Delegate
-    &lt;#body#&gt;
-@end</string>
+	<string>[[NSNotificationCenter defaultCenter]postNotificationName:&lt;#(nonnull NSString *)#&gt; object:&lt;#(nullable id)#&gt; userInfo:&lt;#(nullable NSDictionary *)#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9CA043AE-7B27-445A-A3E2-BB3B81E38DC4</string>
+	<string>5C785E49-4002-47E8-85D2-263B7FA94929</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>kd_protocol </string>
+	<string>KD_notificationcenter_post</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
