@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>kd_view</string>
+	<string>kd_ui_view</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIView *&lt;#name#&gt; = [&lt;#UIView#&gt; &lt;#alloc#&gt;];</string>
+	<string>UIView *&lt;#view#&gt;=[[UIView alloc]initWithFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>8E85CE32-25E5-48B9-8436-8AA7C9F6F6D7</string>
 	<key>IDECodeSnippetLanguage</key>

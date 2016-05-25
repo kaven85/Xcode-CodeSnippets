@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>kd_button</string>
+	<string>kd_ui_button</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
@@ -11,11 +11,14 @@
 	<key>IDECodeSnippetContents</key>
 	<string>UIButton *&lt;#buttonName#&gt;=[[UIButton alloc]init];
     [&lt;#buttonName#&gt; setBackgroundImage:[[UIImage imageNamed:@"&lt;#imageName#&gt;"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ] forState:UIControlStateNormal];
+[&lt;#buttonName#&gt; setBackgroundImage:[[UIImage imageNamed:@"&lt;#imageName#&gt;"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ] forState:UIControlStateFocused];
     [&lt;#buttonName#&gt; addTarget:&lt;#context#&gt; action:@selector(&lt;#selecton#&gt;) forControlEvents:UIControlEventTouchUpInside];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0387DD25-46C1-49F3-ACF6-D7E6D68F321A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIButton 初始化两态</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>kd_UIButton</string>
 	<key>IDECodeSnippetUserSnippet</key>

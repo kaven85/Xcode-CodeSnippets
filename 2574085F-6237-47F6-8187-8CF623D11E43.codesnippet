@@ -2,20 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>kd_notifi_post</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[NSNotificationCenter defaultCenter]postNotificationName:&lt;#(nonnull NSString *)#&gt; object:&lt;#(nullable id)#&gt; userInfo:&lt;#(nullable NSDictionary *)#&gt;];</string>
+	<string>UIView *&lt;#view#&gt;=[[UIView alloc]initWithFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5C785E49-4002-47E8-85D2-263B7FA94929</string>
+	<string>2574085F-6237-47F6-8187-8CF623D11E43</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>KD_notificationcenter_post</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

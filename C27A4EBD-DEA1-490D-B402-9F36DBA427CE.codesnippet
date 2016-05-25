@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>button</string>
+	<string>kd_ui_image</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIButton *&lt;#button name#&gt; = [UIButton alloc]initWithFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];</string>
+	<string>UIImageView *&lt;#imageView#&gt; =[[UIImageView alloc]initWithImage:[UIImage imageNamed:&lt;#image#&gt;]];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C27A4EBD-DEA1-490D-B402-9F36DBA427CE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIImageView 初始化图片</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>kd_button</string>
+	<string>kd_ui_image</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

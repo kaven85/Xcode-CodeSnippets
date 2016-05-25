@@ -82,7 +82,13 @@
  ...
  }
  
- */</string>
+ */
+/**
+ *  角度相关
+ */
+
+#define RADIANS_TO_DEGREES(x) ((x)/M_PI*180.0)
+#define DEGREES_TO_RADIANS(x) ((x)/180.0*M_PI)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>20888CE5-13E0-4B11-9BE3-4EEEB93DB277</string>
 	<key>IDECodeSnippetLanguage</key>
