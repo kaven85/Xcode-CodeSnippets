@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>UIButton *&lt;#buttonName#&gt;=[[UIButton alloc]init];
     [&lt;#buttonName#&gt; setBackgroundImage:[[UIImage imageNamed:@"&lt;#imageName#&gt;"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ] forState:UIControlStateNormal];
-[&lt;#buttonName#&gt; setBackgroundImage:[[UIImage imageNamed:@"&lt;#imageName#&gt;"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ] forState:UIControlStateFocused];
+[&lt;#buttonName#&gt; setBackgroundImage:[[UIImage imageNamed:@"&lt;#imageName#&gt;"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ] forState:UIControlStateHighlighted];
     [&lt;#buttonName#&gt; addTarget:&lt;#context#&gt; action:@selector(&lt;#selecton#&gt;) forControlEvents:UIControlEventTouchUpInside];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0387DD25-46C1-49F3-ACF6-D7E6D68F321A</string>
