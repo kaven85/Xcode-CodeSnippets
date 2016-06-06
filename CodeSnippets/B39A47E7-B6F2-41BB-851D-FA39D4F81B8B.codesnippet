@@ -14,6 +14,8 @@
 	<string>B39A47E7-B6F2-41BB-851D-FA39D4F81B8B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>kd_vc_presentViewController</string>
 	<key>IDECodeSnippetUserSnippet</key>

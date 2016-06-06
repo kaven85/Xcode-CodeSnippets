@@ -14,6 +14,8 @@
 	<string>8B46D7B7-3290-46F3-BDDF-34C3FC3B90B9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>kd_vc_dismissViewController</string>
 	<key>IDECodeSnippetUserSnippet</key>

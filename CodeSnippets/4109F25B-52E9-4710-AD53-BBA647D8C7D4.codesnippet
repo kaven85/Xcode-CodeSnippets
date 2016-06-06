@@ -16,6 +16,8 @@
 	<string>4109F25B-52E9-4710-AD53-BBA647D8C7D4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>kd_void_function</string>
 	<key>IDECodeSnippetUserSnippet</key>
